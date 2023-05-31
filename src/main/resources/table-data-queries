@@ -1,0 +1,3 @@
+#USER DATA
+INSERT INTO user (user_id, user_name, roles, active, password, email, phone) VALUES ('1001', 'rajvignesh', 'ROLE_USER', 'true', 'Cloud@123', 'rajvignesh@gmail.com', '9876543210');
+INSERT INTO user (user_id, user_name, roles, active, password, email, phone) VALUES ('1002', 'jayakumar', 'ROLE_ADMIN', 'true', 'Admin@123', 'jayakumar@gmail.com', '9876567890');
