@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.application.packersmovers.model.User;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long>{
+public interface UserRepository extends JpaRepository<User, Long> {
 
-	Optional<User> findByUserName(String userName);
+	Optional<User> findByEmail(String email);
 }
