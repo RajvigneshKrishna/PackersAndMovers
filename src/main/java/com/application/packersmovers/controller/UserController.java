@@ -1,23 +1,15 @@
 package com.application.packersmovers.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
+@RequestMapping("/user")
 public class UserController {
-	
-	@RequestMapping("/")
-	public String home() {
-		return "<h1>Welcome</h1>";
-	}
-	
-	@RequestMapping("/user")
+
+	@RequestMapping("/usrItem")
 	public String user() {
-		return "<h1>Welcome User</h1>";
+		return "usrItem";
 	}
 
-	@RequestMapping("/admin")
-	public String admin() {
-		return "<h1>Welcome Admin</h1>";
-	}
 }
