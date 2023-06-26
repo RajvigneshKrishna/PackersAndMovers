@@ -10,3 +10,11 @@ CREATE TABLE user (
   PRIMARY KEY (user_id),
   UNIQUE INDEX email_UNIQUE (email ASC) VISIBLE,
   UNIQUE INDEX phone_UNIQUE (phone ASC) VISIBLE);
+
+#CREATE HOUSEHOLD ITEM TABLE
+CREATE TABLE house_hold_items (
+    hs_hld_itm_id BIGINT NOT NULL,
+    item_name VARCHAR(255),
+    price BIGINT,
+    PRIMARY KEY (hs_hld_itm_id)
+)  ENGINE=INNODB

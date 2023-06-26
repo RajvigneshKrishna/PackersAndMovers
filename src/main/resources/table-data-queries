@@ -1,3 +1,18 @@
 #USER DATA
 INSERT INTO user (user_id, user_name, roles, active, password, email, phone) VALUES ('1001', 'rajvignesh', 'ROLE_USER', 'true', 'Cloud@123', 'rajvignesh@gmail.com', '9876543210');
 INSERT INTO user (user_id, user_name, roles, active, password, email, phone) VALUES ('1002', 'jayakumar', 'ROLE_ADMIN', 'true', 'Admin@123', 'jayakumar@gmail.com', '9876567890');
+
+#HOUSEHOLD DATA
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(201, 'TV', 500);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(202, 'Fridge', 800);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(203, 'Washing machine', 700);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(204, 'Sofa 3 Seater', 900);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(205, 'Sofa 1 Seater', 500);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(206, 'Gas Stove', 400);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(207, 'Dining Table', 500);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(208, 'Wooden Cart', 900);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(209, 'Steel Cart', 800);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(210, 'Fan', 200);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(211, 'Air Conditioner', 1500);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(212, 'Kitchen Items', 1000);
+INSERT INTO house_hold_items(hs_hld_itm_id, item_name, price) VALUES(213, 'Others', 300);
